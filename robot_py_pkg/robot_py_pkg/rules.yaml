@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# field_of_view=fov
+#names should be set according to the code written by the game designer
+game:
+player_number: 4
+
+players:    
+    player1:
+        id: 1
+        type_of_player: 1
+        lidar_fov: 1.5708           
+    player2:
+        id: 2
+        type_of_player: 2
+        lidar_fov: 1.5708       
+    player3: 
+        id: 3
+        type_of_player: 'type3'
+        lidar_fov: 1.5708    
+    player4:
+        id: 4
+        type_of_player: 'type4'
+        lidar_fov: 1.5708   
+world: 
+    zone_red: 
+        color: 
+            red: 255
+            green: 0
+            blue:  0
+        object: 
+            name: 'box'
+            size: 0.16
+        limits: 
+            speed: 'NULL'
+    zone_green:
+        color: 
+            red:   0
+            green: 255
+            blue:  0
+        object: 
+            name: 'cylinder'
+            size: 
+                radius: 0.08
+                height: 0.16
+        limits: 
+            speed: 5
+    zone_blue: 
+        color: 
+            red:   0
+            green: 0
+            blue:  255
+            object: 
+                name: 'sphere'
+                size: 0.08
+        limits: 
+            speed: 'NULL'
+                   
+    zone_yellow: 
+        object: 'NULL'
+        limits: 
+            speed: 5
+            
+
+        
+    
