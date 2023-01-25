@@ -1,5 +1,5 @@
 # Gigibots Project (In Progress)
-The project is a playground created oın ROS2 for robotics enthusiasts. The aim of the project is to enable learning image processing, path planning, search, SLAM using no real life sensors.
+The project is a playground created on ROS2 for robotics enthusiasts. The aim of the project is to enable learning image processing, path planning, search, SLAM using no real life sensors.
 
 # HOW?
 At the top of the playground there is a camera to keep track the instantaneous pose of the robots and obstacles. Then from the pose info a digital twin created (https://github.com/cankancelik/gigibots_webots) in the WEBOTS enviroment and sensors attached to each robot and sensor data info shared to the user hence user can work with the data and apply any kind of algorithms that is desired.
